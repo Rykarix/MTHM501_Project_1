@@ -98,6 +98,7 @@ def section_conclusion():
 
 # Typical pythonic best practice.
 if __name__ == "__main__":
+    mark_scheme()
     section_introduction()
     section_objectives()
     section_data()
