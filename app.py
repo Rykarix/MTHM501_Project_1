@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-"""
-Notes for the marker:
-
-
-"""
-
 
 def mark_scheme():
     st.header("Mark Scheme")
