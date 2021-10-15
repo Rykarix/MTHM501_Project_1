@@ -4,38 +4,42 @@ import numpy as np
 
 
 def mark_scheme():
-    st.header("Mark Scheme")
     st.markdown(
         """
-    • [20 marks]: Demonstrating mastery of tables, figures and data wrangling
-    • [20 marks]: Demonstrating mastery of a topic covered
-    • [20 marks]: Demonstrating mastery of a second topic covered
-    • [20 marks]: Demonstrating mastery of topics beyond the scope of the course
-    • [10 marks]: Presentation, clarity of communication, labelling of graphics
-    • [10 marks]: Neat, reproducible code
-    Total: 100 marks
-    """
-    )
+    # Mark scheme
 
-    st.header("Additional notes for the marker")
-    st.markdown(
-        """
+    * [20 marks]: Demonstrating mastery of tables, figures and data wrangling
+    * [20 marks]: Demonstrating mastery of a topic covered
+    * [20 marks]: Demonstrating mastery of a second topic covered
+    * [20 marks]: Demonstrating mastery of topics beyond the scope of the course
+    * [10 marks]: Presentation, clarity of communication, labelling of graphics
+    * [10 marks]: Neat, reproducible code
+
+    * Total: 100 marks
+
+    # Additional notes for the marker:
     Project actively encourages to go beyond of the scope of the course & language requirement not stated. Therefore this shall be written in python & presented as an interactive tool.
 
-    The Libraries I will be using are as follows:
-    Streamlit
-    * Open source library for presenting & sharing custom web pages for machine learning & data science
-    API / Docs: https://docs.streamlit.io/
-    About the library: See above
+    ## Libraries used:
+    This will be updated as I progress, purely for marker's benefit
 
-    Pandas - No, not the super cute white and black fuzzy bear that refuses to eat anything but bamboo
-    * This will be our main data handling tool. It will convert any file format into a fast and efficient DataFrame object.
-    API / Docs: https://pandas.pydata.org/docs/
-    About: https://pandas.pydata.org/about/index.html
+    ### Streamlit
+    Open source library for presenting & sharing custom web pages for machine learning & data science
 
-    Numpy
+    * API / Docs: https://docs.streamlit.io/
+    * About the library: See above
+
+    ### Pandas
+    This will be our main data handling tool. It will convert any file format into a fast and efficient DataFrame object.
+
+    * API / Docs: https://pandas.pydata.org/docs/
+    * About: https://pandas.pydata.org/about/index.html
+
+    ### Numpy
     Required by pandas anyway but also useful for efficient mathematical computation
-    Total: 100 marks
+
+    * API / Docs:
+    * About:
     """
     )
 
